@@ -21,5 +21,6 @@ composer.lock
 !/wp-content/themes
 /wp-content/themes/*
 
-# Don’t ignore child themes
+# Don’t ignore any child or twentytwenty themes
 !/wp-content/themes/*child*
+!/wp-content/themes/twentytwenty
