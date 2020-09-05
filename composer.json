@@ -1,0 +1,27 @@
+{
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    },
+    {
+      "type": "composer",
+      "url": "https://composer.deliciousbrains.com"
+    }
+  ],
+
+  "require": {
+      "wpackagist-theme/twentytwenty": "*",
+      "wpackagist-plugin/breeze":"*",
+      "deliciousbrains-plugin/wp-migrate-db-pro": "*",
+      "deliciousbrains-plugin/wp-migrate-db-pro-cli": "*",
+      "deliciousbrains-plugin/wp-migrate-db-pro-media-files": "*",
+      "deliciousbrains-plugin/wp-migrate-db-pro-multisite-tools": "*",
+      "deliciousbrains-plugin/wp-migrate-db-pro-theme-plugin-files": "*"
+    },
+  "extra": {
+    "installer-paths": {
+        "wp-content/plugins/{$name}/": ["type:wordpress-plugin"]
+    }
+  }
+}
