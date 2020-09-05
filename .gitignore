@@ -1,8 +1,12 @@
 # Ignore parent folder
 
-# Ignore wp-config.php and .htaccess
+# Ignore wp-config.php and .htaccess 
 wp-config.php
 .htaccess
+
+# Ignore Cloudways wp-salt.php & malcare-waf.php
+wp-salt.php
+malcare-waf.php
 
 # Ignore composer files
 /vendor
